@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DelHistory - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DelHistory.res" /d "_DEBUG" /d "_AFXDLL" "F:\teching martial\网络编程技术\网络编程实例\chap4\DelHistory\DelHistory.rc"" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPAC47.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DelHistory.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap4\DelHistory\DelHistory.cpp"
+"F:\teching martial\网络编程技术\网络编程实例\chap4\DelHistory\DelHistoryDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSPAC47.tmp" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPAC48.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DelHistory.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap4\DelHistory\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSPAC48.tmp" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPAC58.tmp" with contents
+[
+Wininet.lib shlwapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DelHistory.pdb" /debug /machine:I386 /out:"Debug/DelHistory.exe" /pdbtype:sept 
+".\Debug\DelHistory.obj"
+".\Debug\DelHistoryDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\DelHistory.res"
+]
+Creating command line "link.exe @C:\Users\didoTian\AppData\Local\Temp\RSPAC58.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DelHistory.cpp
+DelHistoryDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DelHistory.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

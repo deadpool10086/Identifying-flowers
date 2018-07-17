@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyFtpServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyFtpServer.res" /d "_DEBUG" /d "_AFXDLL" "F:\teching martial\网络编程技术\网络编程实例\chap6\FTP\MyFtpServer\MyFtpServer.rc"" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSP9645.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyFtpServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap6\FTP\MyFtpServer\AccountDialog.cpp"
+"F:\teching martial\网络编程技术\网络编程实例\chap6\FTP\MyFtpServer\MyFtpServer.cpp"
+"F:\teching martial\网络编程技术\网络编程实例\chap6\FTP\MyFtpServer\MyFtpServerDlg.cpp"
+"F:\teching martial\网络编程技术\网络编程实例\chap6\FTP\MyFtpServer\Server.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSP9645.tmp" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSP9646.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyFtpServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap6\FTP\MyFtpServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSP9646.tmp" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSP9657.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyFtpServer.pdb" /debug /machine:I386 /out:"Debug/MyFtpServer.exe" /pdbtype:sept 
+".\Debug\AccountDialog.obj"
+".\Debug\MyFtpServer.obj"
+".\Debug\MyFtpServerDlg.obj"
+".\Debug\Server.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyFtpServer.res"
+]
+Creating command line "link.exe @C:\Users\didoTian\AppData\Local\Temp\RSP9657.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AccountDialog.cpp
+MyFtpServer.cpp
+MyFtpServerDlg.cpp
+Server.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyFtpServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HyperLink - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/HyperLink.res" /d "_DEBUG" /d "_AFXDLL" "F:\teching martial\网络编程技术\网络编程实例\chap4\HyperLink\HyperLink.rc"" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPCE7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/HyperLink.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap4\HyperLink\HyperLink.cpp"
+"F:\teching martial\网络编程技术\网络编程实例\chap4\HyperLink\HyperLinkDlg.cpp"
+"F:\teching martial\网络编程技术\网络编程实例\chap4\HyperLink\HyperLinker.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSPCE7.tmp" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPCF8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/HyperLink.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap4\HyperLink\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSPCF8.tmp" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPCF9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HyperLink.pdb" /debug /machine:I386 /out:"Debug/HyperLink.exe" /pdbtype:sept 
+".\Debug\HyperLink.obj"
+".\Debug\HyperLinkDlg.obj"
+".\Debug\HyperLinker.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HyperLink.res"
+]
+Creating command line "link.exe @C:\Users\didoTian\AppData\Local\Temp\RSPCF9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HyperLink.cpp
+HyperLinkDlg.cpp
+HyperLinker.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+HyperLink.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ipmon - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40d /fo"Debug/ipmon.res" /d "_DEBUG" /d "_AFXDLL" "F:\teching martial\网络编程技术\网络编程实例\chap5\MySniff\ipmon.rc"" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPB9BE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ipmon.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap5\MySniff\ipmon.cpp"
+"F:\teching martial\网络编程技术\网络编程实例\chap5\MySniff\ipmonDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSPB9BE.tmp" 
+Creating temporary file "C:\Users\didoTian\AppData\Local\Temp\RSPB9BF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ipmon.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\teching martial\网络编程技术\网络编程实例\chap5\MySniff\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\didoTian\AppData\Local\Temp\RSPB9BF.tmp" 
+Creating command line "link.exe ws2_32.lib Iphlpapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ipmon.pdb" /debug /machine:I386 /out:"Debug/ipmon.exe" /pdbtype:sept  ".\Debug\ipmon.obj" ".\Debug\ipmonDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\ipmon.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ipmon.cpp
+ipmonDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ipmon.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
